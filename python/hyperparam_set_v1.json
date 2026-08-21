@@ -1,0 +1,72 @@
+[
+    {
+        "run_description": "Baseline_run72_re-run_with_new_aug",
+        "LEARNING_RATE_INIT": 0.0003,
+        "ONSET_LOSS_WEIGHT": 9.0,
+        "ONSET_POS_WEIGHT_MANUAL_VALUE": 6.0,
+        "RNN_TYPE": "GRU",
+        "RNN_HIDDEN_SIZE": 768,
+        "RNN_LAYERS": 2,
+        "RNN_DROPOUT": 0.5,
+        "RNN_BIDIRECTIONAL": true,
+        "WEIGHT_DECAY": 0.0001,
+        "SCHEDULER_PATIENCE": 10,
+        "SCHEDULER_FACTOR": 0.2
+    },
+    {
+        "run_description": "Test_Higher_Dropout_0.55",
+        "LEARNING_RATE_INIT": 0.0003,
+        "ONSET_LOSS_WEIGHT": 9.0,
+        "ONSET_POS_WEIGHT_MANUAL_VALUE": 6.0,
+        "RNN_TYPE": "GRU",
+        "RNN_HIDDEN_SIZE": 768,
+        "RNN_LAYERS": 2,
+        "RNN_DROPOUT": 0.55,
+        "RNN_BIDIRECTIONAL": true,
+        "WEIGHT_DECAY": 0.0001,
+        "SCHEDULER_PATIENCE": 10,
+        "SCHEDULER_FACTOR": 0.2
+    },
+    {
+        "run_description": "Test_More_Patient_Scheduler_12",
+        "LEARNING_RATE_INIT": 0.0003,
+        "ONSET_LOSS_WEIGHT": 9.0,
+        "ONSET_POS_WEIGHT_MANUAL_VALUE": 6.0,
+        "RNN_TYPE": "GRU",
+        "RNN_HIDDEN_SIZE": 768,
+        "RNN_LAYERS": 2,
+        "RNN_DROPOUT": 0.5,
+        "RNN_BIDIRECTIONAL": true,
+        "WEIGHT_DECAY": 0.0001,
+        "SCHEDULER_PATIENCE": 12,
+        "SCHEDULER_FACTOR": 0.2
+    },
+    {
+        "run_description": "Test_Higher_OnsetLossWeight_10",
+        "LEARNING_RATE_INIT": 0.0003,
+        "ONSET_LOSS_WEIGHT": 10.0,
+        "ONSET_POS_WEIGHT_MANUAL_VALUE": 6.0,
+        "RNN_TYPE": "GRU",
+        "RNN_HIDDEN_SIZE": 768,
+        "RNN_LAYERS": 2,
+        "RNN_DROPOUT": 0.5,
+        "RNN_BIDIRECTIONAL": true,
+        "WEIGHT_DECAY": 0.0001,
+        "SCHEDULER_PATIENCE": 10,
+        "SCHEDULER_FACTOR": 0.2
+    },
+    {
+        "run_description": "Test_Higher_Dropout_and_Patient_Scheduler",
+        "LEARNING_RATE_INIT": 0.0003,
+        "ONSET_LOSS_WEIGHT": 9.0,
+        "ONSET_POS_WEIGHT_MANUAL_VALUE": 6.0,
+        "RNN_TYPE": "GRU",
+        "RNN_HIDDEN_SIZE": 768,
+        "RNN_LAYERS": 2,
+        "RNN_DROPOUT": 0.55,
+        "RNN_BIDIRECTIONAL": true,
+        "WEIGHT_DECAY": 0.0001,
+        "SCHEDULER_PATIENCE": 12,
+        "SCHEDULER_FACTOR": 0.2
+    }
+]
